@@ -14,7 +14,7 @@
   udevCheckHook,
 }:
 
-rustPlatform.buildRustPackage rec {
+rustPlatform.buildRustPackage {
   pname = "tiny-dfr";
   version = "0.3.5";
 
